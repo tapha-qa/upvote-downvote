@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+}
+
+.top-nav-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-nav-nav {
+    display: block;
+}
