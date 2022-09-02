@@ -4,7 +4,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 6% 1% 33% 50% 10%;
+    grid-template-rows: 6% 1% 33% 1% 49% 1% 9%;
     margin-right: 3.75rem;
     margin-left: 3.75rem;
     margin-top: 1.275rem;
@@ -20,8 +20,8 @@ body {
 }
 
 .section-2 {
-    grid-row: 2 / 3;
-    grid-column: 1 / 2;
+    /* grid-row: 2 / 3;
+    grid-column: 1 / 2; */
 }
 
 .top-nav-nav {
