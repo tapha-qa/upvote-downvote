@@ -2,14 +2,17 @@ body {
     margin: 0;
 
     .container {
+        $containerMarginX: 3.75rem;
+        $containerMarginY: 1.275rem;
+
         display: grid;
         /* grid-template-rows: 6% 1% 33% 1% 49% 1% 9%; */
         grid-template-rows: 6% 33% 49% 9%;
         grid-template-columns: 30% 70%;
-        margin-right: 3.75rem;
-        margin-left: 3.75rem;
-        margin-top: 1.275rem;
-        margin-bottom: 1.275rem;
+        margin-right: $containerMarginX;
+        margin-left: $containerMarginX;
+        margin-top: $containerMarginY;
+        margin-bottom: $containerMarginY;
         height: 100vh;
     
         .top-nav-section {
@@ -31,11 +34,13 @@ body {
         
         .top-nav-nav {
             display: block;
+
+            $topNavPaddingX: 2em;
             
             .top-nav-links {
                 border-right: 1.5px solid #b8b8b8;
-                padding-right: 2em;
-                padding-left: 2em;
+                padding-right: $topNavPaddingX;
+                padding-left: $topNavPaddingX;
                 text-decoration: none;
             }
             
