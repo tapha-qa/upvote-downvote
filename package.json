@@ -4,6 +4,7 @@
   "description": "Our new project",
   "main": "index.js",
   "scripts": {
+    "sass": "sass style.scss style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/tapha-qa/upvote-downvote#readme",
   "dependencies": {
-    "react": "^18.2.0"
+    "react": "^18.2.0",
+    "sass": "^1.54.8"
   }
 }
