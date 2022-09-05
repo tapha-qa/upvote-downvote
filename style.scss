@@ -6,7 +6,6 @@ body {
         $containerMarginY: 1.275rem;
 
         display: grid;
-        /* grid-template-rows: 6% 1% 33% 1% 49% 1% 9%; */
         grid-template-rows: 6% 33% 49% 9%;
         grid-template-columns: 30% 70%;
         margin-right: $containerMarginX;
@@ -23,13 +22,13 @@ body {
         }
 
         .sidebar {
-            /* grid-row: 2 / 3;
-            grid-column: 1 / 2; */
+            border: 1px solid #06062080;
+            grid-row: 2 / 5;
+            grid-column: 1 / 2;
         }
 
         .section-2 {
-            /* grid-row: 2 / 3;
-            grid-column: 1 / 2; */
+            
         }
 
         .top-nav-nav {
