@@ -28,6 +28,8 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@types/react": "^18.0.18",
+    "@types/react-dom": "^18.0.6",
     "@webpack-cli/generators": "^2.5.0",
     "autoprefixer": "^10.4.8",
     "css-loader": "^6.7.1",
